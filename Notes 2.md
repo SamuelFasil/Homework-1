@@ -21,10 +21,10 @@ Its secure variant named HTTPS is used by more than 80% of websites.
 HTTP/2, published in 2015, provides a more efficient expression of HTTP's semantics "on the wire". It is now used by 43% of websites[7] and supported by almost all web browsers (over 97% of users). It is also supported by major web servers over Transport Layer Security (TLS) using an Application-Layer Protocol Negotiation (ALPN) extension where TLS 1.2 or newer is required.
 
 HTTP/3, the successor to HTTP/2, was published in 2022. It is now used by over 25% of websites and is supported by many web browsers (over 75% of users). HTTP/3 uses QUIC instead of TCP for the underlying transport protocol. Like HTTP/2, it does not obsolesce previous major versions of the protocol. Support for HTTP/3 was added to Cloudflare and Google Chrome first, and is also enabled in Firefox. HTTP/3 has lower latency for real-world web pages, if enabled on the server, load faster than with HTTP/2, and even faster than HTTP/1.1, in some cases over 3× faster than HTTP/1.1 (which is still commonly only enabled).
-
+## 2, HTTP and HTTPS
 HTTP: No Data Encryption Implemented
 Every URL link that begins with HTTP uses a basic type of “hypertext transfer protocol”. Created by Tim Berners-Lee back in the early 1990’s, when the Internet was still in its infancy, this network protocol standard is what allows web browsers and servers to communicate through the exchange of data.
-## 2, HTTP and HTTPS
+
 HTTP is also called “a stateless system”, which means that it enables connection on demand. You click on a link, requesting a connection, and your web browser sends this request to the server, which responds by opening the page. The quicker the connection is, the faster the data is presented to you.
 
 As an “application layer protocol”, HTTP remains focused on presenting the information, but cares less about the way this information travels from one place to another. Unfortunately, this means that HTTP can be intercepted and potentially altered, making both the information and the information receiver (that’s you) vulnerable.
