@@ -62,6 +62,7 @@ JRE contains class libraries, JVM, and other supporting files. It does not inclu
 It uses important package classes like math, swing, util, lang, awt, and runtime libraries.
 If you have to run Java applets, then JRE must be installed in your system.
 Different Types of Java Platforms
+
 ### There are four different types of Java programing language platforms:
 
 #### 1. Java Platform, Standard Edition (Java SE): 
@@ -79,29 +80,34 @@ JavaFX is a platform for developing rich internet applications using a lightweig
 To understand Java programming language, we need to understand some basic concept of how a computer program can run a command and execute the action.
 
 ## 3, What is a native app?
+
 A native app is any app that can be downloaded and live on your mobile device, functioning as an independent program and often accessing different features of your device to work. Even where products or programs run online as web apps (e.g. a social media platform), proper mobile apps aren’t the same as the website. They must be developed as independent programs. Even different operating systems require different apps, meaning that developers have to customize native apps to work well with whatever phone or device the users have. This means that native apps perform better on the operating system they’re built for than a website would, running faster than web apps since web apps have to download all of their data from a web server.
 
 The benefit of a native app is that it lives on your phone, is easy to access, and most apps don’t always require an internet connection. The user experience is often better on a native app too, since it can be customized in ways websites can’t.
 
 The other benefit is convenience, since users can have the product or service in their pocket, and apps have higher engagement because of notifications that keep prompting the user to come back to the app.
+
 ### Native app vs. web app
+
 A native app is developed for your mobile device, while a web app usually exists in code and is accessed via a web browser. While your social media site might look sort of the same whether you access it on your computer or through an app on your device, you are functionally accessing two different things. That’s why they often have different features; for example, some social media platforms have live streaming in their apps but not on their website.
 
 Native apps can often be accessed offline because they store relevant data on your phone. Web apps require the internet and they don’t store files on your computer.
 
 A hybrid app mixes these two things on your mobile device, requiring some access to your hard drive and device features, but also using the HTML of a website to display within the app and therefore requiring internet access.
+
 ## 4, What is an Operating System?
 An Operating System (OS) is a software that acts as an interface between computer hardware components and the user. Every computer system must have at least one operating system to run other programs. Applications like Browsers, MS Office, Notepad Games, etc., need some environment to run and perform its tasks.
 
 The OS helps you to communicate with the computer without knowing how to speak the computer’s language. It is not possible for the user to use any computer or mobile device without having an operating system.
+
 ### Types of Operating System (OS)
 Following are the popular types of OS (Operating System):
 
-Batch Operating System
-Multitasking/Time Sharing OS
-Multiprocessing OS
-Real Time OS
-Distributed OS
-Network OS
-Mobile OS
+#### Batch Operating System
+#### Multitasking/Time Sharing OS
+#### Multiprocessing OS
+#### Real Time OS
+#### Distributed OS
+#### Network OS
+#### Mobile OS
 
